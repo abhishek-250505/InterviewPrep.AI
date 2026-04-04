@@ -10,6 +10,8 @@ export const analyzeResume = async (req, res) => {
       return res.status(400).json({ message: "Resume required" });
     }
     const filepath = req.file.path
+    console.log(filepath);
+    
 
     const fileBuffer = await fs.promises.readFile(filepath)
     const uint8Array = new Uint8Array(fileBuffer)
@@ -142,7 +144,7 @@ You are a real human interviewer conducting a professional interview.
 
 Speak in simple, natural English as if you are directly talking to the candidate.
 
-Generate exactly 5 interview questions.
+Generate exactly 8 interview questions.
 
 Strict Rules:
 - Each question must contain between 15 and 25 words.
