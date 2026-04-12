@@ -4,7 +4,7 @@ import { BsRobot } from 'react-icons/bs'
 function Footer() {
   return (
     <div className='bg-[#921BFA] flex justify-center px-4 pb-10 py-4 pt-10'>
-      <div className='w-full max-w-6xl bg-white rounded-[24px] shadow-sm border border-gray-200 py-8 px-3 text-center'>
+      <div className='w-full max-w-6xl bg-gray-200 rounded-[24px] shadow-sm border border-gray-200 py-8 px-3 text-center'>
         <div className='flex justify-center items-center gap-3 mb-3'>
             <div className="bg-linear-to-r from-[#9319FA] to-[#5937F7] text-white p-2 rounded-lg">
             {"</>"}

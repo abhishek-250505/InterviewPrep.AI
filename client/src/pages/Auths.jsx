@@ -1,5 +1,4 @@
 import React from 'react'
-import { BsRobot } from "react-icons/bs";
 import { IoSparkles } from "react-icons/io5";
 import { motion } from "motion/react"
 import { FcGoogle } from "react-icons/fc";
@@ -44,11 +43,10 @@ function Auths({isModel = false}) {
         bg-white shadow-2xl border border-gray-200
       `}>
             <div className='flex items-center justify-center gap-3 mb-6'>
-                <div className='bg-black text-white p-2 rounded-lg'>
-                    <BsRobot size={18}/>
-
-                </div>
-                <h2 className='font-semibold text-lg'>InterviewIQ.AI</h2>
+                 <div className="bg-linear-to-r from-[#9319FA] to-[#5937F7] text-white p-2 rounded-lg">
+            {"</>"}
+          </div>
+                <h2 className='font-semibold text-lg'>InterviewPrep.AI</h2>
             </div>
 
             <h1 className='text-2xl md:text-3xl font-semibold text-center leading-snug mb-4'>
